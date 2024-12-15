@@ -15,7 +15,7 @@ git clone https://github.com/calamoazul/chat-ia-atencion-usuario.git
 
 Una vez desplegado el proyecto, habría que usar docker-compose en el directorio raíz para levantar los contenedores, creando un archivo .env similar al .env.example para realizar la conexión con Postgresql.
 
-> [!DANGER]
+> [!CAUTION]
 > Si no se crea un archivo .env con las mismas variables del archivo .env.example, Docker no podrá construir el contenedor de la aplicación.
 
 Tras realizar las configuraciones necesarias, solo habría que crear los contenedores con el comando de docker-compose
