@@ -28,8 +28,7 @@ export default function Chat() {
         <>
             <form onSubmit={sendQuestion} className="chat">
                 <input type="text" readonly value={chat} />
-                <textarea placeholder="Escríbanos sus dudas" onInput={inputUser} className="userBox">
-                    
+                <textarea required placeholder="Escríbanos sus dudas" onInput={inputUser} className="userBox">
                 </textarea>
                 <input type="submit" value="Enviar" />
             </form >
